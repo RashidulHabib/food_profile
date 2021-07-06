@@ -1,0 +1,64 @@
+body{
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+}
+.name{
+    color: orange;
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 100px;
+}
+h1{
+    font-size: 30px;
+    font-weight: 1000;
+}
+.first-half{
+    width: 50%;
+    padding-left: 5%;
+    text-align: justify;
+    margin-top: 5%;
+   
+}
+.first-half img{
+    width: 70%;
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(241, 191, 198), rgb(240, 45, 11));
+    padding: 10px 20px;
+    color: white;
+    font-weight: 700;
+    border-radius: 20px;
+    margin-top: 15%;
+}
+.second-banner{
+    background-image: url(Images/background/Frame\ 57.jpg);
+   margin: 10px;
+   margin-bottom: 100px;
+}
+.second-half{
+  
+    text-align: justify;
+    padding-right: 80px;
+}
+.third-half{
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 40px;
+}
+.food-name{
+   display: grid;
+   
+   text-align: center;
+   width: 90%;
+   padding: 20px;
+   margin-left: 5%;
+   margin-right: 5%;
+   border-radius: 30px;
+   box-shadow: 10px 10px 30px rgb(145, 135, 135);
+   margin-bottom: 100px;
+}
+.food-name img{
+    width: 100%;
+}
