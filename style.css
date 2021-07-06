@@ -9,8 +9,13 @@ body{
     display: flex;
     margin-bottom: 100px;
 }
+.top-banner{
+    background-image: url(Images/background/7.png);
+   
+    margin-bottom: 50px;
+}
 h1{
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 1000;
 }
 .first-half{
@@ -21,7 +26,7 @@ h1{
    
 }
 .first-half img{
-    width: 70%;
+    width: 80%;
 }
 .button{
     text-decoration: none;
@@ -34,8 +39,8 @@ h1{
 }
 .second-banner{
     background-image: url(Images/background/Frame\ 57.jpg);
-   margin: 10px;
-   margin-bottom: 100px;
+ 
+   margin-bottom: 50px;
 }
 .second-half{
   
@@ -57,8 +62,76 @@ h1{
    margin-right: 5%;
    border-radius: 30px;
    box-shadow: 10px 10px 30px rgb(145, 135, 135);
-   margin-bottom: 100px;
+   margin-bottom: 50px;
 }
 .food-name img{
     width: 100%;
 }
+.plan-color{
+    color: tomato;
+}
+.plan-head{
+    text-align: center;
+    color: red;
+}
+.planning{
+    background-image: url(images/background/Frame\ 58.jpg);
+}
+
+.item-card{
+    width: 50%;
+    padding: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: justify;
+    border-radius: 10px;
+    box-shadow: 10px 10px 50px rgb(108, 126, 91);
+}
+#card1{
+    border-left: 7px solid;
+    border-image: linear-gradient(red ,yellow,orange);
+    border-image-slice: 1;
+}
+#card2{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan, green);
+    border-image-slice: 1;
+}
+#us-color{
+    color: rgba(12, 66, 245, 0.959);
+}
+.con-head{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.con-card{
+    width: 80%;
+    display: grid;
+   grid-template-columns: repeat(3, 1fr);
+
+   padding: 20px;
+   margin-left: 8%;
+ 
+   border-radius: 30px;
+   box-shadow: 10px 10px 30px rgb(145, 135, 135);
+   margin-bottom: 50px;
+}
+.con-card img{
+    width: 10%;
+    text-align: center;
+}
+.foot-color{
+    color: orange;
+}
+.foot-color2{
+    color: rgb(153, 147, 147);
+}
+.f-color{
+    color: white;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    margin-bottom: 0;
+}
+
